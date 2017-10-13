@@ -48,6 +48,9 @@ from keystone.models import token_model
 CONF = keystone.conf.CONF
 LOG = log.getLogger(__name__)
 
+#Charter was here
+LOG.warning("Charter Dev was here")
+
 # Environment variable used to pass the request context
 CONTEXT_ENV = 'openstack.context'
 
