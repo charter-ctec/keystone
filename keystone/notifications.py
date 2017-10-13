@@ -12,6 +12,8 @@
 #   License for the specific language governing permissions and limitations
 #   under the License.
 
+# Charter dev was here
+
 """Notifications module for OpenStack Identity Service resources."""
 
 import collections
