@@ -714,6 +714,7 @@ def render_response(body=None, status=None, headers=None, method=None):
     else:
         headers = list(headers)
     headers.append(('Vary', 'X-Auth-Token'))
+    headers.append(('x-charter-id', 'welcome to Charter'))
 
     if body is None:
         body = b''
